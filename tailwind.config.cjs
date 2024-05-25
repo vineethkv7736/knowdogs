@@ -18,6 +18,8 @@ module.exports = {
     },
     extend: {
       colors: {
+        'vine': '#FFBF5D',
+        'vine2':'#FFC163',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

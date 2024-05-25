@@ -13,7 +13,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen w-auto bg-gradient-to-b from-green-600 from-10% via-green-800 via-40% to-black to-90%"
+      className="min-h-screen w-auto bg-gradient-to-b from-vine from-40% via-vine2 via-10% to-white to-90%"
     >
       <div className=" flex  min-h-screen flex-col p-4">
         <div className="text-white font-serif text-4xl md:text-5xl mt-4 text-opacity-70 flex justify-center w-full  md:justify-start">
