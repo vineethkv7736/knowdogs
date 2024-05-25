@@ -11,7 +11,7 @@ import NavList from "./Navlist";
 
 const Navbar = () => {
   return (
-    <div className="h-14 w-auto p-4 pt-8 flex flex-row items-center justify-between ">
+    <div className="h-14 w-auto p-4  py-6 md:py-8 flex flex-row items-center justify-between bg-black/30">
       <div>
         <h1 className="text-black cinzel text-4xl md:text-4xl">KnowDogs</h1>
       </div>

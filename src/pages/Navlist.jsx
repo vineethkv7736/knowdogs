@@ -22,7 +22,7 @@ const NavList = () => {
     },
   ];
   return (
-    <ul className="flex flex-col md:flex-row gap-4 text-black ">
+    <ul className="flex flex-col md:flex-row gap-4 text-white ">
       {list.map((obj, key) => {
         return (
           <li
