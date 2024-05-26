@@ -82,13 +82,24 @@
     scroll-behavior: smooth;
   }
  
-  .hero-bg {
-    background: url("/assets/p3.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  @media (max-width: 767px) {
+    .bg-hero-mobile {
+      background: url("/assets/p3.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   }
-
+  
+  @media (min-width: 768px) {
+    .bg-hero-desktop {
+      background: url("/assets/p6.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  
 .cinzel {
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
